@@ -12,6 +12,13 @@ main()
       rev=rev*10+m;
       n=n/10;
    }
-   printf("The reverse of the number is %d",rev);
+   if(b==rev)
+   {
+       printf("The number is palindrom");
+    }
+    else
+    {
+         printf("The number is not palindrom");  
+    }
  }
    
